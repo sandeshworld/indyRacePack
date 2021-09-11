@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'simpleControlNode = indyRacePack.simpleControlNode:main'
+            'simpleControlNode = indyRacePack.simpleControlNode:main',
+            'vehicleControlPublisher = indyRacePack.vehicleControlPublisher:main'
         ],
     },
 )
